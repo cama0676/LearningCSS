@@ -3,6 +3,53 @@
 /* The external .css file should not contain any HTML tags.  */
 
 
-body {
-	background-color: lightblue;
-}
+.logo-img{   
+				border: 5px solid red;
+				margin: 10px;
+			}
+			
+			div {
+				border: 1px  solid   red;
+				margin: 3px;
+			}
+			
+			body{
+				background-color: pink;
+			}
+						
+			.box1, box2{
+				font-family:sans-serif;
+			}
+			
+			.box1 a:link{			/*style only the links found in the box1 */
+				color:blue;}
+			.box1 a:visited{
+				color:green;}
+			.box1 a:hover{
+				color:yellow;}
+			.box1 a:active{
+				color:red;}
+			
+				
+			
+			
+			.box1 {
+				width:200px;
+				float:left; 
+				margin-right:30px;
+						}
+			
+			.box2 {
+				width:900px;
+				height:600px;
+				overflow:auto;
+				
+									}
+									
+			.footer {
+				margin-top:20px;
+				}
+				
+			.navbar{ margin-bottom: 20px; }
+									
+			
